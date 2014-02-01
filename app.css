@@ -1,22 +1,24 @@
 body {
   background-color: white;
   font-family: 'Gudea', sans-serif;
-  margin-left: 5%;
-  margin-top: 5%;
+  margin: 5%;
 }
 
 .name {
   color: #DF723E;
+  display: inline-block;
   font-size: 1.4em;
   letter-spacing: 3px;
+  line-height: .1em;
   text-transform: uppercase;
 }
 
 .contact_information, .links_container {
   color: #808284;
   display: inline-block;
-  font-size: .85em;
-  letter-spacing: 1px;
+  font-size: .8em;
+  letter-spacing: 2px;
+  line-height: .1em;
   text-transform: uppercase;
 }
 
@@ -29,10 +31,18 @@ body {
     color: #DF723E;
   }
 
+.links img {
+  margin-bottom: -.2em;
+  padding-right: .3em;
+  padding-left: .3em;
+}
+
 .primary_titles {
   color: #DF723E;
   font-size: .9em;
   letter-spacing: 1px;
+  margin-bottom: 1%;
+  margin-top: 3%;
   text-decoration: none;
 }
 
@@ -40,20 +50,32 @@ body {
   color: #DF723E;
   font-size: .9em;
   letter-spacing: 2px;
+  margin-top: 3em;
+  margin-bottom: .1em;
   text-transform: uppercase;
-}
-
-.description_text {
-  color: #808284;
-  font-size: .9em;
-  margin-left: 2%;
-  margin-right: 7%;
 }
 
 .detail_text {
   color: #808284;
   font-size: .9em;
   font-style: italic;
+  margin-bottom: 1%;
   margin-left: 2%;
   margin-right: 7%;
+  margin-top: 1%;
+}
+
+.description_text {
+  color: #808284;
+  font-size: .9em;
+  margin-bottom: 3%;
+  margin-left: 2%;
+  margin-right: 7%;
+  margin-top: 1%;
+}
+
+hr {
+  border: 1px dotted #A7A9AB;
+  border-style: none none dotted; 
+  margin: 0 10% 0 0;
 }
