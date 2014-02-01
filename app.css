@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+  font-family: 'Gudea', sans-serif;
+}
+
+.name {
+  font-size: 1.4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.contact_information, .links_container {
+  font-size: .85em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.categories {
+  font-size: .9em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.description_text {
+  font-size: .95em;
+}
+
+.detail_text {
+  font-size: .95em;
+  font-style: italic;
+}
