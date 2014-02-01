@@ -4,28 +4,57 @@ body {
 }
 
 .name {
+  color: #DF723E;
   font-size: 1.4em;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
 
 .contact_information, .links_container {
+  color: #808284;
   font-size: .85em;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
+.line_of_text, .external_links {
+  color: #808284;
+  text-decoration:none;
+}
+
+.line_of_text:hover, .external_links:hover {
+  color: #DF723E;
+  text-decoration:none;
+}
+
+.primary_titles {
+  color: #58585B;
+  font-size: .9em;
+  letter-spacing: 1px;
+  text-decoration:none;
+}
+
+.primary_titles:hover {
+  color: #DF723E;
+  font-size: .9em;
+  letter-spacing: 1px;
+  text-decoration:none;
+}
+
 .categories {
+  color: #DF723E;
   font-size: .9em;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 .description_text {
-  font-size: .95em;
+  color: #808284;
+  font-size: .9em;
 }
 
 .detail_text {
-  font-size: .95em;
+  color: #808284;
+  font-size: .9em;
   font-style: italic;
 }
