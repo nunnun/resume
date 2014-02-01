@@ -12,6 +12,7 @@ body {
 
 .contact_information, .links_container {
   color: #808284;
+  display: inline-block;
   font-size: .85em;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -19,13 +20,14 @@ body {
 
 .line_of_text, .external_links {
   color: #808284;
+  display: inline-block;
   text-decoration:none;
 }
-
-.line_of_text:hover, .external_links:hover {
-  color: #DF723E;
-  text-decoration:none;
-}
+  .line_of_text:hover, .external_links:hover {
+    color: #DF723E;
+    display: inline-block;
+    text-decoration:none;
+  }
 
 .primary_titles {
   color: #58585B;
@@ -33,13 +35,12 @@ body {
   letter-spacing: 1px;
   text-decoration:none;
 }
-
-.primary_titles:hover {
-  color: #DF723E;
-  font-size: .9em;
-  letter-spacing: 1px;
-  text-decoration:none;
-}
+  .primary_titles:hover {
+    color: #DF723E;
+    font-size: .9em;
+    letter-spacing: 1px;
+    text-decoration:none;
+  }
 
 .categories {
   color: #DF723E;
