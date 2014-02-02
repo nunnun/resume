@@ -4,7 +4,7 @@ A few notes on the design decisions behind my adaptation of my print resume to a
 
 ###Typography
 
-I'm a sucker for typefaces that are highly legible at a small point size, have a serif and san serif version, and -- this always makes my designerd heart happy -- have a small caps option. My print resume is set in Scala Sans, a nice little number that fills all of the above qualifications. Problem? It's not a web font. 
+I'm a sucker for typefaces that are highly legible at a small point size, have a serif and sans serif version, and -- this always makes my designerd heart happy -- have a small caps option. My print resume is set in Scala Sans, a nice little number that fills all of the above qualifications. Problem? It's not a web font. 
 
 No trouble, after trying out a few typefaces that I thought were similar to Scala but then in layout looked suspiciously like Helvetica, I tracked down a suitable substitute on Google Fonts: Gudea. It has a lot in common with Scala Sans, but it is missing lovely small caps for my subheads. Again, no trouble, I used an ol' standby workaround: bump the point-size down a point or two, make the line of text uppercase, and open up the kerning. Ta-da! Faux-small caps.
 
