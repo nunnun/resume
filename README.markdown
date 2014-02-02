@@ -1,6 +1,6 @@
 ## Resume Redesign
 
-A few notes on the design decisions behind my adaptation of my print resume to a static HTML/CSS page.
+A few notes on the design decisions behind the adaptation of my print resume to a static HTML/CSS page.
 
 ###Typography
 
