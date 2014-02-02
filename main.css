@@ -9,7 +9,6 @@ body {
   display: inline-block;
   font-size: 1.4em;
   letter-spacing: 3px;
-  /*line-height: .1em;*/
   text-transform: uppercase;
 }
 
@@ -22,11 +21,19 @@ body {
   text-transform: uppercase;
 }
 
-.contact-deets, .links {
+.contact-deets {
   color: #58585B;
   display: inline-block;
   margin-bottom: -1%;
   margin-top: 1.1em;
+  text-decoration: none;
+}
+
+.links {
+  color: #58585B;
+  display: inline-block;
+/*  margin-bottom: -1%;
+  margin-top: 1.1em;*/
   text-decoration: none;
 }
   .links:hover {
@@ -45,7 +52,6 @@ body {
   font-size: .9em;
   letter-spacing: 1px;
   margin-bottom: -1%;
-  margin-top: 1.1em;
   text-decoration: none;
 }
 
@@ -73,18 +79,30 @@ body {
   color: #808284;
   font-size: .9em;
   font-style: italic;
+  line-height: 1.4em;
   margin-bottom: 1%;
   margin-left: 2%;
   margin-top: -1%;
 }
 
-.category-description {
+.category-description-main {
   color: #808284;
   font-size: .9em;
+  line-height: 1.4em;
   margin-bottom: 1%;
   margin-left: 2%;
   margin-right: 7%;
-  margin-top: 1%;
+  margin-top: 1em;
+}
+
+.category-description {
+  color: #808284;
+  font-size: .9em;
+  line-height: 1.4em;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 7%;
+  margin-top: .01em;
 }
 
 hr {
