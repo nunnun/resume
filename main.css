@@ -80,7 +80,8 @@ body {
   line-height: 1.4em;
   margin-bottom: 1%;
   margin-left: 2%;
-  margin-top: -1%;
+  margin-top: .5em;
+  /*margin-top: -1%;*/
 }
 
 .category-description-main {
